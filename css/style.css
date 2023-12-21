@@ -378,15 +378,23 @@ a {
 
 }
 
-.footer-socials {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    color: #FFF;
+
+.footer-social-title {
     display: flex;
 }
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer-social-item {}
+
+.footer-social-link {}
+
+.footer-social-icon {}
 
 .header-container {
     display: flex;
