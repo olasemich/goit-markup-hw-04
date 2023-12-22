@@ -94,6 +94,11 @@ a {
 
 }
 
+.logo-header {
+    margin-right: 76px;
+    display: inline-block;
+}
+
 .logo-span {
     color: #2e2f42;
 
@@ -111,7 +116,8 @@ a {
     padding-bottom: 24px;
     display: block;
     position: relative;
-    color: #404bbf;
+    color: #2E2F42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list .list-item-link:hover,
@@ -371,7 +377,8 @@ a {
     letter-spacing: 0.02em;
     background: #4D5AE5;
     transform: translateY(100%);
-    transition: transform 500ms ease-in;
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover .overlay {
@@ -384,6 +391,7 @@ a {
     flex-direction: column;
     width: calc((100% - 24px * 2) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
